@@ -1,0 +1,16 @@
+Random Walk & Monte Carlo Simulation Speed Test
+
+I was learning about Threading and Multiprocessing programming and I was using time.sleep
+to simulate long calculations. I came  across a youtube video:
+	
+	 https://www.youtube.com/watch?v=BfS2H1y6tzQ 
+
+The explained the random walk & monte carlo simulation in python. So I wanted to see
+the speed difference running the same simulation in  single and multicore processes.
+
+The simulation will run 20,000 walks.
+For each walk it will walk up to 30 blocks.
+Then it will calculate the percentage if a transport is needed or not.
+
+The program will give you a menu to chose which version of the simulation to use.
+Single or multiprocess
