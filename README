@@ -5,7 +5,7 @@ to simulate long calculations. I came  across a youtube video:
 	
 	 https://www.youtube.com/watch?v=BfS2H1y6tzQ 
 
-The explained the random walk & monte carlo simulation in python. So I wanted to see
+They explained the random walk & monte carlo simulation in python. So I wanted to see
 the speed difference running the same simulation in  single and multicore processes.
 
 The simulation will run 20,000 walks.
